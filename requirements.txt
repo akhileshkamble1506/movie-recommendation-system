@@ -1,2 +1,5 @@
-steamlit
+streamlit
+pandas
+numpy
+scikit-learn
 requests
