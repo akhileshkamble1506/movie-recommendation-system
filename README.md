@@ -1,34 +1,99 @@
 # 🎬 Movie Recommendation System
 
-A content-based movie recommendation system built using Python, Streamlit, Pandas, NumPy, Scikit-learn, and TMDB API.
+<p align="center">
+  <b>An end-to-end Machine Learning web application that recommends similar movies using content-based filtering and cosine similarity.</b>
+</p>
 
-## 🚀 Live App
+<p align="center">
+  Built with Python, Scikit-learn, Streamlit and TMDB API.
+</p>
 
-👉 [Click here to open the Movie Recommendation System](https://movie-recommendation-system-ejeudiuexncv3zsmpsaaaj.streamlit.app/)
+<p align="center">
+  <a href="https://movie-recommendation-system-ejeudiuexncv3zsmpsaaaj.streamlit.app/">
+    🚀 Live Demo
+  </a>
+  &nbsp; • &nbsp;
+  <a href="#-how-it-works">🧠 How It Works</a>
+  &nbsp; • &nbsp;
+  <a href="#-tech-stack">🛠 Tech Stack</a>
+</p>
+
+---
+
+## 🖥️ Application Preview
+
+<p align="center">
+  <img src="assets/app-preview.png" alt="Movie Recommendation System Preview" width="100%">
+</p>
+
+<p align="center">
+  <i>Select a movie and instantly discover the top 5 most similar movies with posters.</i>
+</p>
+
+---
+
+## 🚀 Live Demo
+
+The application is deployed on **Streamlit Community Cloud**.
+
+### 👉 [Open Movie Recommendation System](https://movie-recommendation-system-ejeudiuexncv3zsmpsaaaj.streamlit.app/)
+
+---
+
+## 📌 About the Project
+
+The **Movie Recommendation System** is a Machine Learning project designed to help users discover movies similar to their interests.
+
+The application uses a **content-based recommendation approach** to analyze movie similarity and return the **top 5 most relevant recommendations**.
+
+Movie posters are fetched dynamically using the **TMDB API**, while the user interface is built and deployed using **Streamlit**.
+
+This project demonstrates an end-to-end workflow involving:
+
+- Data preprocessing
+- Feature extraction
+- Machine Learning
+- Similarity computation
+- API integration
+- Web application development
+- Cloud deployment
+
+---
 
 ## ✨ Features
 
-- Movie recommendation based on similarity
-- Movie posters using TMDB API
-- Interactive Streamlit web interface
-- Top 5 movie recommendations
+- 🎬 Select a movie from the available movie database
+- 🤖 Generate ML-based movie recommendations
+- 🔍 Find the top 5 most similar movies
+- 🖼️ Display movie posters using the TMDB API
+- ⚡ Fast recommendations using a precomputed similarity matrix
+- 🎨 Clean and interactive Streamlit interface
+- ☁️ Deployed using Streamlit Community Cloud
+- 🛡️ Handles missing posters and API errors
 
-## 🛠 Tech Stack
+---
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- TMDB API
+## 🧠 How It Works
 
-## 📂 Project Files
+The recommendation engine follows a **Content-Based Filtering** approach.
 
-- `app.py` - Streamlit application
-- `movie_dict.pkl` - movie dataset
-- `similarity.pkl` - similarity matrix
-- `movie recommander system (1).ipynb` - Jupyter notebook
-
-## 🌐 Deployment
-
-The project is deployed using Streamlit Community Cloud.
+```text
+Movie Dataset
+     ↓
+Data Preprocessing
+     ↓
+Feature Engineering
+     ↓
+Text / Metadata Vectorization
+     ↓
+Cosine Similarity
+     ↓
+Similarity Matrix
+     ↓
+User Selects a Movie
+     ↓
+Top 5 Similar Movies
+     ↓
+TMDB Poster API
+     ↓
+Streamlit Web Application
