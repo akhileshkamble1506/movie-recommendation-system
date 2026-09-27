@@ -18,13 +18,17 @@
 
 ## 🖥️ Application Preview
 
-<img src="YOUR_GITHUB_IMAGE_LINK_HERE" alt="Movie Recommendation System Preview" width="100%">
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/2331dbef-791b-413a-899c-3d3885b8222f"
+    alt="Movie Recommendation System Preview"
+    width="100%"
+  >
+</p>
 
 <p align="center">
   <i>Select a movie and get the top 5 most similar movie recommendations with posters.</i>
 </p>
-
----
 
 ## 📌 Project Overview
 
